@@ -15,7 +15,7 @@
 		3B58B0CC270DC87000D69E13 /* Hiro42Kadai10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58B0CB270DC87000D69E13 /* Hiro42Kadai10Tests.swift */; };
 		3B58B0D7270DC87000D69E13 /* Hiro42Kadai10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58B0D6270DC87000D69E13 /* Hiro42Kadai10UITests.swift */; };
 		3B58B0E6270DCBC500D69E13 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58B0E5270DCBC500D69E13 /* Prefectures.swift */; };
-		3B58B0E8270DCC6B00D69E13 /* PrefecturesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58B0E7270DCC6B00D69E13 /* PrefecturesTableViewController.swift */; };
+		3B58B0E8270DCC6B00D69E13 /* DisplayPrefecturesToTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58B0E7270DCC6B00D69E13 /* DisplayPrefecturesToTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		3B58B0D6270DC87000D69E13 /* Hiro42Kadai10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiro42Kadai10UITests.swift; sourceTree = "<group>"; };
 		3B58B0D8270DC87000D69E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B58B0E5270DCBC500D69E13 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
-		3B58B0E7270DCC6B00D69E13 /* PrefecturesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesTableViewController.swift; sourceTree = "<group>"; };
+		3B58B0E7270DCC6B00D69E13 /* DisplayPrefecturesToTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPrefecturesToTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				3B58B0BF270DC87000D69E13 /* LaunchScreen.storyboard */,
 				3B58B0C2270DC87000D69E13 /* Info.plist */,
 				3B58B0E5270DCBC500D69E13 /* Prefectures.swift */,
-				3B58B0E7270DCC6B00D69E13 /* PrefecturesTableViewController.swift */,
+				3B58B0E7270DCC6B00D69E13 /* DisplayPrefecturesToTableViewController.swift */,
 			);
 			path = Hiro42Kadai10;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B58B0E6270DCBC500D69E13 /* Prefectures.swift in Sources */,
-				3B58B0E8270DCC6B00D69E13 /* PrefecturesTableViewController.swift in Sources */,
+				3B58B0E8270DCC6B00D69E13 /* DisplayPrefecturesToTableViewController.swift in Sources */,
 				3B58B0B5270DC86D00D69E13 /* AppDelegate.swift in Sources */,
 				3B58B0B7270DC86D00D69E13 /* SceneDelegate.swift in Sources */,
 			);

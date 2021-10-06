@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PrefecturesTableViewController: UITableViewController {
+class DisplayPrefecturesToTableViewController: UITableViewController {
     private let prefectures = Prefectures.prefectures()
 
     override func numberOfSections(in tableView: UITableView) -> Int {
