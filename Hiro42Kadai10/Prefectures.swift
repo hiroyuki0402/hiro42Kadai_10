@@ -8,7 +8,7 @@
 import Foundation
 
 class Prefectures {
-    static func  prefectures() -> [String] {
+    static func prefectures() -> [String] {
         return
 
             ["北海道", "青森県", "岩手県", "宮城県", "秋田県",
