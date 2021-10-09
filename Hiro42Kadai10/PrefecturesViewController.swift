@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DisplayPrefecturesToTableViewController: UITableViewController {
+class PrefecturesViewController: UITableViewController {
     private let prefectures = Prefectures.prefectures()
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -27,13 +27,10 @@ class DisplayPrefecturesToTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView,
                             willDisplay cell: UITableViewCell,
                             forRowAt indexPath: IndexPath) {
-        switch indexPath.row % 3 {
-        case 1:
-            cell.backgroundColor = #colorLiteral(red: 0.9809280038, green: 0.7752041221, blue: 0.7940962911, alpha: 1)
-        case 2:
-            cell.backgroundColor = #colorLiteral(red: 0.8599545956, green: 0.9981891513, blue: 0.5744469762, alpha: 1)
-        default:
-            cell.backgroundColor = #colorLiteral(red: 0.6728177071, green: 0.7109459043, blue: 0.8603231907, alpha: 1)
-        }
+        let red = #colorLiteral(red: 0.9809280038, green: 0.7752041221, blue: 0.7940962911, alpha: 1)
+        let green = #colorLiteral(red: 0.8599545956, green: 0.9981891513, blue: 0.5744469762, alpha: 1)
+        let blue = #colorLiteral(red: 0.6728177071, green: 0.7109459043, blue: 0.8603231907, alpha: 1)
+        let colors: [UIColor] = [red, green, blue]
+        cell.backgroundColor = colors[indexPath.row % colors.count]
     }
 }
